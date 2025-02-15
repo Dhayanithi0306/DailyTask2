@@ -1,0 +1,130 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color:slateblue;
+}
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1000px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.apps{
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  margin-top: 250px;
+  padding: 20px;
+  max-width: 500px;
+  margin-left: 500px;
+}
+.s{
+  font-style: normal;
+  font-weight: bold;
+ 
+}
+
+.login-container, .subjects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3bef13;
+}
+button:hover {
+  background-color: #ef6013;
+  font-weight: 20px;
+}
+h1, h2, h3 {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.subjects-container {
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.subjects-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subjects-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.subjects-container .subject {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subjects-container .subject label {
+  font-weight: bold;
+}
+
+.subjects-container .subject input {
+  width: 40%;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #0a0a0a;
+}
+
+td {
+  background-color: #131212;
+}
+
+button {
+  margin-top: 20px;
+}
